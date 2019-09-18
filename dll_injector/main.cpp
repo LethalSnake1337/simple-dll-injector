@@ -35,7 +35,7 @@ int main()
 	
 	HANDLE proc = OpenProcess(PROCESS_ALL_ACCESS, FALSE, PID);																		//Opens a Process with ALL Access u can change to write only too    https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess
 	
-	LoadDll(proc, L"c:\\CSGO-Internal-Cheat.dll");
+	LoadDll(proc, L"c:\\CSGO-Internal-Cheat.dll");  // <--- Change DLL Path to whatever you want hardcoded xD
 
 	return 0;
 }
